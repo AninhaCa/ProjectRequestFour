@@ -19,7 +19,7 @@ class RatingViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         labelName.text = "AVALIAÇÃO CLIENTE"
-        labelRating.text = "Para Nossos Clientes, a Pizza\(ratingPizza?.name ?? "") esta na posição - \(ratingPizza?.rating ?? 0)/5 - de Aprovação"
+        labelRating.text = "Para Nossos Clientes, a Pizza \(ratingPizza?.name ?? "") esta na posição - \(ratingPizza?.rating ?? 0)/5 - de Aprovação"
         let urlImage = URL(string: ratingPizza?.imageURL ?? "")
         imageRating.sd_setImage(with: urlImage)
     }
