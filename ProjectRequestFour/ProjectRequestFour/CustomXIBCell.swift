@@ -9,6 +9,9 @@ import UIKit
 
 class CustomXIBCell: UITableViewCell {
 
+    @IBOutlet var imagePizza: UIImageView!
+    @IBOutlet var labelPizza: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -20,4 +23,7 @@ class CustomXIBCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    func setupXIB(pizzaElement: PizzaElement?) {
+        
+    }
 }

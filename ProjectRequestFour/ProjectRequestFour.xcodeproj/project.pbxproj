@@ -14,6 +14,8 @@
 		776C34C529C7939A006F4173 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 776C34C429C7939A006F4173 /* Assets.xcassets */; };
 		776C34C829C7939A006F4173 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 776C34C629C7939A006F4173 /* LaunchScreen.storyboard */; };
 		778DF30829C7961300EB84E7 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778DF30729C7961300EB84E7 /* Pizza.swift */; };
+		778DF30B29C79C4C00EB84E7 /* CustomXIBCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778DF30929C79C4C00EB84E7 /* CustomXIBCell.swift */; };
+		778DF30C29C79C4C00EB84E7 /* CustomXIBCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 778DF30A29C79C4C00EB84E7 /* CustomXIBCell.xib */; };
 		D8811FF38EC70B242A22BA71 /* Pods_ProjectRequestFour.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E34FAB3E222BF28AB4450EE7 /* Pods_ProjectRequestFour.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +30,8 @@
 		776C34C729C7939A006F4173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		776C34C929C7939A006F4173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		778DF30729C7961300EB84E7 /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		778DF30929C79C4C00EB84E7 /* CustomXIBCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomXIBCell.swift; sourceTree = "<group>"; };
+		778DF30A29C79C4C00EB84E7 /* CustomXIBCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomXIBCell.xib; sourceTree = "<group>"; };
 		8A2773561E2B6B21936B2A3F /* Pods-ProjectRequestFour.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectRequestFour.release.xcconfig"; path = "Target Support Files/Pods-ProjectRequestFour/Pods-ProjectRequestFour.release.xcconfig"; sourceTree = "<group>"; };
 		E34FAB3E222BF28AB4450EE7 /* Pods_ProjectRequestFour.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectRequestFour.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -85,6 +89,8 @@
 				776C34BB29C79388006F4173 /* AppDelegate.swift */,
 				776C34BD29C79388006F4173 /* SceneDelegate.swift */,
 				778DF30729C7961300EB84E7 /* Pizza.swift */,
+				778DF30929C79C4C00EB84E7 /* CustomXIBCell.swift */,
+				778DF30A29C79C4C00EB84E7 /* CustomXIBCell.xib */,
 				776C34BF29C79388006F4173 /* ViewController.swift */,
 				776C34C129C79388006F4173 /* Main.storyboard */,
 				776C34C429C7939A006F4173 /* Assets.xcassets */,
@@ -153,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				778DF30C29C79C4C00EB84E7 /* CustomXIBCell.xib in Resources */,
 				776C34C829C7939A006F4173 /* LaunchScreen.storyboard in Resources */,
 				776C34C529C7939A006F4173 /* Assets.xcassets in Resources */,
 				776C34C329C79388006F4173 /* Main.storyboard in Resources */,
@@ -210,6 +217,7 @@
 			files = (
 				778DF30829C7961300EB84E7 /* Pizza.swift in Sources */,
 				776C34C029C79388006F4173 /* ViewController.swift in Sources */,
+				778DF30B29C79C4C00EB84E7 /* CustomXIBCell.swift in Sources */,
 				776C34BC29C79388006F4173 /* AppDelegate.swift in Sources */,
 				776C34BE29C79388006F4173 /* SceneDelegate.swift in Sources */,
 			);
