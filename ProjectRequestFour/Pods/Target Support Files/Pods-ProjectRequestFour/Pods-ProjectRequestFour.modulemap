@@ -1,0 +1,6 @@
+framework module Pods_ProjectRequestFour {
+  umbrella header "Pods-ProjectRequestFour-umbrella.h"
+
+  export *
+  module * { export * }
+}
