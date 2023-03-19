@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 class PriceViewController: UIViewController {
 
@@ -19,12 +20,22 @@ class PriceViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        labelName.text = pricePizza?.name
+        labelPriceP.text = "PEQUENO - R$\(pricePizza?.priceP ?? 0)"
+        labelPriceM.text = "MÉDIO = R$\(pricePizza?.priceM ?? 0)"
+        labelPriceG.text = "GRANDE = R$\(pricePizza?.priceG ?? 0)"
+        let urlImage = URL(string: pricePizza?.imageURL ?? "")
+        imagePrice.sd_setImage(with: urlImage)
     }
     
     @IBAction func back(_ sender: Any) {
+        self.dismiss(animated: true)
     }
     
     @IBAction func follow(_ sender: Any) {
+        if let rating = self.storyboard?.instantiateViewController(identifier: "rating") as? RatingViewController {
+            rating.ratingPizza = self.pricePizza
+            self.present(rating, animated: true)
+        }
     }
 }

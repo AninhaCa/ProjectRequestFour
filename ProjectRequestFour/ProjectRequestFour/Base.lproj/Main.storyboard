@@ -91,7 +91,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="VOLTAR"/>
                                 <connections>
-                                    <action selector="BACK:" destination="G6J-Tu-aX3" eventType="touchUpInside" id="STp-uH-Q6e"/>
+                                    <action selector="back:" destination="G6J-Tu-aX3" eventType="touchUpInside" id="En2-k2-C0y"/>
                                 </connections>
                             </button>
                         </subviews>
