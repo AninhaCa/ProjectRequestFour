@@ -15,6 +15,8 @@ class PriceViewController: UIViewController {
     @IBOutlet var labelPriceM: UILabel!
     @IBOutlet var labelPriceG: UILabel!
     
+    var pricePizza: PizzaElement?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
